@@ -27,11 +27,11 @@ class BMICalculator {
 
   String getInterpretation() {
     if (_bmi >= 25) {
-      return 'You have a hiegher than normal body weight. Try to exercise more';
+      return 'You have a hiegher than normal body weight. Try to do some more exercise, avoid junck and fatty foods';
     } else if (_bmi >= 18.5) {
-      return 'You have a normal body weight. Good job';
+      return 'You have a normal body weight. You take good care of your body and it is good, keep up the good work';
     } else {
-      return 'You have a lower than normal body weight. You can eat more.';
+      return 'You have a lower than normal body weight. It is advisable to eat more, think less and surround yourself with fun people';
     }
   }
 }

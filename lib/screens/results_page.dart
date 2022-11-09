@@ -20,7 +20,7 @@ class ResultPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: kAppBckColor,
-        title: const Text('BIM CALCULATOR'),
+        title: const Text('BMI CALCULATOR'),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
